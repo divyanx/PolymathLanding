@@ -101,6 +101,30 @@ a {
   line-height: 1.45;
 }
 
+.coming-soon-toast {
+  position: fixed;
+  right: 24px;
+  top: 90px;
+  z-index: 999;
+  padding: 12px 18px;
+  border-radius: 999px;
+  background: rgba(18, 18, 24, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  color: var(--ink);
+  font-weight: 600;
+  font-size: 14px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transform: translateY(-8px);
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.coming-soon-toast.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .container {
   width: min(1140px, 92vw);
   margin: 0 auto;
@@ -358,6 +382,12 @@ a {
   margin-top: 20px;
   font-size: 14px;
   color: var(--soft);
+}
+
+.hero-meta a {
+  color: var(--accent-deep);
+  border-bottom: 1px solid rgba(191, 90, 242, 0.6);
+  padding-bottom: 1px;
 }
 
 .hero-visual {
