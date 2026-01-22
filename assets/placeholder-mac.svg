@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" rx="28" fill="#f7f3ee" stroke="#d9d2c6" stroke-width="6" />
+  <rect x="36" y="36" width="240" height="624" rx="20" fill="#efe7dc" />
+  <rect x="300" y="36" width="864" height="260" rx="24" fill="#dce6e4" />
+  <rect x="300" y="318" width="864" height="166" rx="22" fill="#efe7dc" />
+  <rect x="300" y="504" width="864" height="156" rx="22" fill="#dce6e4" />
+  <text x="720" y="160" text-anchor="middle" font-family="Outfit, sans-serif" font-size="24" font-weight="600" fill="#4f5d6b">Today Planner</text>
+  <text x="600" y="700" text-anchor="middle" font-family="Outfit, sans-serif" font-size="18" fill="#7a8896">Mac screenshot</text>
+</svg>

@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Polymath: Think. Plan. Do.</title>
+    <meta name="description" content="Polymath is a command center for life on iPhone, iPad, Mac, and visionOS. Plan tasks, habits, and projects with time blocking, domain dashboards, and iCloud-only sync." />
+    <meta name="keywords" content="Polymath, productivity app, habit tracker, time blocking, life management, SwiftUI, iCloud sync, iPhone app, iPad app, Mac app" />
+    <meta property="og:title" content="Polymath: Think. Plan. Do." />
+    <meta property="og:description" content="Plan tasks, habits, and projects with a calm, data-rich dashboard. iCloud-only sync, no ads, no trackers." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/icon.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Polymath: Think. Plan. Do." />
+    <meta name="twitter:description" content="Plan tasks, habits, and projects with a calm, data-rich dashboard." />
+    <meta name="twitter:image" content="assets/icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Sora:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="assets/icon.png" />
+    <link rel="apple-touch-icon" href="assets/icon.png" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="logo" href="index.html">
+          <span class="logo-mark">
+            <img src="assets/icon.png" alt="Polymath icon" />
+          </span>
+          Polymath
+        </a>
+        <nav class="nav-links" id="nav-links" aria-label="Primary">
+          <a href="#features">Features</a>
+          <a href="#workflow">Workflow</a>
+          <a href="#developer">About</a>
+          <a href="suggestions.html">Suggestions</a>
+          <a href="#faq">FAQ</a>
+          <a href="dev.html">Developer</a>
+        </nav>
+        <div class="nav-cta">
+          <a class="btn btn-ghost" href="support.html">Support</a>
+          <a class="btn btn-coffee" href="support-the-project.html">
+            <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M7 6h9a4 4 0 0 1 0 8h-1v2a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V10a4 4 0 0 1 4-4Zm0 2a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-2h-6a1 1 0 1 1 0-2h7a2 2 0 0 0 0-4H7Zm12.5 1.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z" />
+            </svg>
+            Buy me a coffee
+          </a>
+          <a class="btn btn-primary" href="#download">Download</a>
+        </div>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="download">
+        <div class="container hero-grid">
+          <div class="reveal">
+            <span class="pill">Command Center for Life</span>
+            <h1>Orchestrate your life across every domain.</h1>
+            <p>Polymath brings your <span class="highlight">projects, habits, and tasks</span> into one calm dashboard with <span class="highlight">liquid-glass UI</span> and domain accents. <span class="highlight">iCloud-only sync</span>, no ads, no trackers.</p>
+            <p class="hero-sub">Designed for <span class="highlight">multi-hyphenates</span>: manage career, learning, fitness, and creative goals in one system with <span class="highlight">time blocking</span>, habit streaks, and focused planning.</p>
+            <p class="hero-sub">Built for people who work across <span class="highlight">different domains</span> and need a <span class="highlight">single place</span> to track priorities, record progress, and stay productive.</p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#">Download on the App Store</a>
+              <a class="btn btn-outline" href="suggestions.html">Suggest a feature</a>
+            </div>
+            <div class="hero-meta">Available for iPhone, iPad, Mac, and visionOS.</div>
+          </div>
+          <div class="hero-visual reveal">
+            <div class="hero-duo">
+              <img class="hero-device hero-device--ipad" src="assets/shots/ipad-01.jpg" alt="Polymath on iPad" loading="lazy" decoding="async" />
+              <img class="hero-device hero-device--iphone" src="assets/shots/iphone-06.jpg" alt="Polymath on iPhone" loading="lazy" decoding="async" />
+            </div>
+            <img class="hero-icon" src="assets/icon.png" alt="Polymath app icon" loading="lazy" decoding="async" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container seo-grid">
+          <div>
+            <p class="kicker">About Polymath</p>
+            <h2 class="section-title">A life management app built for Apple platforms.</h2>
+          </div>
+          <div class="seo-copy">
+            <p>Polymath is a productivity app for iPhone, iPad, Mac, and visionOS that unifies task planning, habit tracking, and project management. Organize life domains, set goals, and keep a steady rhythm with time blocking and focus modes.</p>
+            <p>Built with <span class="highlight">SwiftUI</span> and <span class="highlight">SwiftData</span>, Polymath stays fast and private. Data is stored locally and optionally synced through iCloud using <span class="highlight">CloudKit</span>, with no ads and no third-party trackers.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="features">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <p class="kicker">Built for multi-hyphenates</p>
+              <h2 class="section-title">A mission-control view for everything you care about.</h2>
+            </div>
+            <p class="section-subtitle">From goals to daily execution, Polymath aligns focus, progress, and recovery in one place.</p>
+          </div>
+          <div class="feature-grid">
+            <div class="feature-card reveal">
+              <h3>Command Center</h3>
+              <p>See your balance at a glance with domain charts, progress rings, and daily momentum.</p>
+            </div>
+            <div class="feature-card reveal">
+              <h3>Active Stack</h3>
+              <p>Protect your attention by curating a small set of projects that matter now.</p>
+            </div>
+            <div class="feature-card reveal">
+              <h3>Today Planner</h3>
+              <p>Time-block tasks with drag and drop, context tags, and focus metrics.</p>
+            </div>
+            <div class="feature-card reveal">
+              <h3>Domain Modules</h3>
+              <p>Academic, fitness, and creative dashboards tailor metrics to each life domain.</p>
+            </div>
+            <div class="feature-card reveal">
+              <h3>Habits + Streaks</h3>
+              <p>Keep habits visible and rewarding with daily streak cues.</p>
+            </div>
+            <div class="feature-card reveal">
+              <h3>Private by Design</h3>
+              <p>Your data stays on device and in iCloud. No ads, no trackers, no third-party SDKs.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="workflow">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <p class="kicker">Workflow</p>
+              <h2 class="section-title">See the system at work across every surface.</h2>
+            </div>
+            <p class="section-subtitle">A fast, glassy UI tuned for clarity. Everything you need, nothing you don't.</p>
+          </div>
+          <div class="showcase-list">
+            <article class="showcase-item reveal">
+              <div class="showcase-copy">
+                <p class="kicker">Command Center</p>
+                <h3>Balance the big picture.</h3>
+                <p>Domain charts, progress rings, and focus cues keep your week aligned without extra noise.</p>
+              </div>
+              <div class="showcase-media">
+                <img src="assets/shots/mac-03.jpg" alt="Command Center on Mac" loading="lazy" decoding="async" />
+              </div>
+            </article>
+            <article class="showcase-item reverse reveal">
+              <div class="showcase-copy">
+                <p class="kicker">Domains</p>
+                <h3>Track what matters per domain.</h3>
+                <p>Academic, fitness, and creative modules tailor the data and workflows to each arena.</p>
+              </div>
+              <div class="showcase-media">
+                <img src="assets/shots/ipad-03.jpg" alt="Domain detail on iPad" loading="lazy" decoding="async" />
+              </div>
+            </article>
+            <article class="showcase-item reveal">
+              <div class="showcase-copy">
+                <p class="kicker">Today Planner</p>
+                <h3>Time-block with confidence.</h3>
+                <p>Drag tasks into the day, tag the context, and keep your focus hours visible.</p>
+              </div>
+              <div class="showcase-media">
+                <img src="assets/shots/iphone-04.jpg" alt="Today planner on iPhone" loading="lazy" decoding="async" />
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="developer">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <p class="kicker">About the developer</p>
+              <h2 class="section-title">Built in New Delhi by Divyansh.</h2>
+            </div>
+              <p class="section-subtitle">Polymath is a free, privacy-first project built solo. See the support options or read the full story.</p>
+          </div>
+          <div class="developer-grid">
+            <div class="developer-copy reveal">
+              <p>Hi, I am Divyansh, 25 years old, based in New Delhi. I am an engineer by profession and work in AI, but my time is split between painting, photography, filmmaking, traveling, game dev, app dev, music, and learning piano.</p>
+              <p>Juggling so many creative tracks made me want a calmer system to see priorities, protect focus, and stay consistent. That is how the idea for Polymath started.</p>
+              <p>Polymath stays free by design with no ads, no tracking, and iCloud-only sync. If it helps, a small tip keeps the momentum going.</p>
+              <div class="developer-actions">
+                <a class="btn btn-coffee" href="support-the-project.html">
+                  <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M7 6h9a4 4 0 0 1 0 8h-1v2a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V10a4 4 0 0 1 4-4Zm0 2a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-2h-6a1 1 0 1 1 0-2h7a2 2 0 0 0 0-4H7Zm12.5 1.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z" />
+                  </svg>
+                  Buy me a coffee
+                </a>
+                <a class="btn btn-outline" href="dev.html">Developer page</a>
+              </div>
+            </div>
+            <div class="developer-photo reveal">
+              <img src="assets/screenshots/divyansh.PNG" alt="Divyansh, creator of Polymath" loading="lazy" decoding="async" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="faq">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <p class="kicker">FAQ</p>
+              <h2 class="section-title">Answers before you download.</h2>
+            </div>
+          </div>
+          <div class="faq">
+            <details class="reveal">
+              <summary>Do I need an account?</summary>
+              <p>No. Polymath uses SwiftData locally and optionally syncs through your personal iCloud account.</p>
+            </details>
+            <details class="reveal">
+              <summary>Does Polymath sync across devices?</summary>
+              <p>Yes, when iCloud is enabled. Your data stays inside your iCloud, not on our servers.</p>
+            </details>
+            <details class="reveal">
+              <summary>Is my data used for tracking?</summary>
+              <p>No. There are no third-party SDKs, ads, or tracking services in Polymath.</p>
+            </details>
+            <details class="reveal">
+              <summary>Which platforms are supported?</summary>
+              <p>Polymath ships for iPhone and iPad with Mac support. visionOS layouts are supported in the current build.</p>
+            </details>
+            <details class="reveal">
+              <summary>Who is Polymath for?</summary>
+              <p>Polymath is for people who juggle multiple domains and want a single system to plan tasks, track habits, and record progress without context switching.</p>
+            </details>
+            <details class="reveal">
+              <summary>How do I delete my data?</summary>
+              <p>You can clear local data in the app and manage iCloud data through system settings. See the account deletion page for the full steps.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="cta reveal">
+            <h2>Bring calm to the chaos of ambition.</h2>
+            <p>Download Polymath and start building a life you can see, track, and love.</p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#">Download on the App Store</a>
+              <a class="btn btn-outline" href="support.html">Contact support</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="logo">
+            <span class="logo-mark">
+              <img src="assets/icon.png" alt="Polymath icon" />
+            </span>
+            Polymath
+          </div>
+          <p>Command Center for Life. Private, focused, and built for multi-domain momentum.</p>
+        </div>
+        <div class="footer-links">
+          <strong>Product</strong>
+          <a href="#features">Features</a>
+          <a href="#developer">About</a>
+          <a href="suggestions.html">Suggestions</a>
+          <a href="support.html">Support</a>
+          <a href="dev.html">Developer</a>
+        </div>
+        <div class="footer-links">
+          <strong>Legal</strong>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Use</a>
+          <a href="delete-account.html">Account Deletion</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
